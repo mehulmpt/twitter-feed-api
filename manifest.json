@@ -1,0 +1,19 @@
+{
+  "name": "Twitter feed",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Twitter feed picker",
+  "icons": { 
+    "16": "icon.png",
+    "48": "icon.png",
+     "128": "icon.png" 
+  },
+  "background": {
+    "scripts": ["jquery.js", "background.js"]
+  },
+  "permissions": [
+    "https://twitter.com/*",
+    "notifications",
+    "storage"
+  ]
+}
